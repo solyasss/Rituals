@@ -116,9 +116,8 @@ nav ul li a:hover {
     color: #fff;
     padding: 50px;
     text-align: left;
-    display: flex;
+    display: flex !important;
     align-items: center;
-     display: flex !important;
 }
 
 .banner-content {
