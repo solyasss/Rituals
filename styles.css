@@ -109,6 +109,7 @@ nav ul li a:hover {
 
 }
 
+
 .advertisement-banner {
     background-image: url('img/1116057-rituals-25a-winter-limited-2023-multi_4-by-3.webp');
     background-size: cover;
@@ -116,25 +117,45 @@ nav ul li a:hover {
     color: #fff;
     padding: 50px;
     text-align: left;
-    display: flex !important;
+    display: flex;
     align-items: center;
-}
-
-.banner-content {
-    margin-left: 10px;
-}
-
-.banner-text {
-    max-width: 600px;
-}
-
-.banner-button {
-    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .banner-logo {
     max-width: 100px;
     max-height: 50px;
+}
+
+.banner-text {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+    .advertisement-banner {
+        padding: 30px;
+    }
+
+    .banner-text {
+        max-width: 100%;
+    }
 }
 
 h3 {
