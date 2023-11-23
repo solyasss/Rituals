@@ -39,7 +39,7 @@
         </div>
     </header>
 
-    <div class="advertisement-banner">
+    <div class="advertisement-banner" id="myBanner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 banner-text">
@@ -277,8 +277,12 @@
     </footer>
 
     <script>
-        document.body.classList.remove('banner-hidden');
+        document.addEventListener('DOMContentLoaded', function () {
+            var banner = document.getElementById('myBanner');
+            banner.removeAttribute('hidden');
+        });
     </script>
+    
     
 </body>
 
