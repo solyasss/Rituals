@@ -1,4 +1,4 @@
-body {
+body:not(.banner-hidden) {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
@@ -116,7 +116,7 @@ nav ul li a:hover {
     color: #fff;
     padding: 50px;
     text-align: left;
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
