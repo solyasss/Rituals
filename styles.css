@@ -120,6 +120,11 @@ nav ul li a:hover {
     align-items: center;
 }
 
+.advertisement-banner[hidden] {
+    display: flex !important;
+}
+
+
 .banner-content {
     margin-left: 10px;
 }
